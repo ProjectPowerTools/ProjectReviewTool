@@ -1,0 +1,44 @@
+<Directory Id="LocalAppDataFolder" Name="AppData">
+    <Directory Id="AppRootDirectory" Name="ProjectReviewTool"/>
+</Directory>
+
+<Property Id=”ALLUSERS” Secure=”yes”/>
+
+<DirectoryRef Id="AppRootDirectory">
+    <Component Id="Registration.xml" Guid="f671ee4d-dd0a-4f7f-a4d1-1d181d2f3002? DiskId="1?>
+        <CreateFolder/>
+        <RemoveFolder Id="RemoveAppRootDirectory" On="uninstall" />
+        <File Id="ProjectReviewTool_vsto" Name="ProjectReviewTool.vsto" Source="$(var.AddinFiles)"></File>
+         <File Id="ProjectReviewTool_dll_manifest" Name="ProjectReviewTool.dll.manifest" Source="$(var.AddinFiles)"></File>
+        <File Id="MSOfficeToolsCommon_dll" Name="Microsoft.Office.Tools.Common.v4.0.Utilities.dll"  Source="$(var.AddinFiles)"></File>                                  
+         <File Id="ProjectReviewTool_dll" Name="ProjectReviewTool.dll" Source="$(var.AddinFiles)" />
+         <RegistryKey Root="HKCU" Key="Software\Microsoft\Office\Project\AddIns\ProjectReviewTool" Action="createAndRemoveOnUninstall">
+                      <RegistryValue Id="RegKey_FriendlyName" Root="HKCU"
+                                     Key="Software\Microsoft\Office\Project\AddIns\ProjectReviewTool"
+                                     Name="FriendlyName"
+                                     Value="Project Review Tool"
+                                     Type="string" KeyPath="yes" />
+        </RegistryKey>       
+         <RegistryKey Root="HKCU" Key="Software\Microsoft\Office\Project\AddIns\ProjectReviewTool" Action="createAndRemoveOnUninstall">
+                      <RegistryValue Id="RegKey_Description" Root="HKCU"
+                                     Key="Software\Microsoft\Office\Project\AddIns\ProjectReviewTool"
+                                     Name="Description"
+                                     Value="Project Review Tool MSProject Add-In"
+                                     Type="string" KeyPath="yes" />
+        </RegistryKey>     
+         <RegistryKey Root="HKCU" Key="Software\Microsoft\Office\Project\AddIns\ProjectReviewTool" Action="createAndRemoveOnUninstall">
+                      <RegistryValue Id="RegKey_Manifest" Root="HKCU"
+                                     Key="Software\Microsoft\Office\Project\AddIns\ProjectReviewTool"
+                                     Name="Manifest" Value="[INSTALLFOLDER]ProjectReviewTool.vsto|vstolocal"
+                                     Type="string" KeyPath="yes" />
+        </RegistryKey>     
+         <RegistryKey Root="HKCU" Key="Software\Microsoft\Office\Project\AddIns\ProjectReviewTool" Action="createAndRemoveOnUninstall">
+                      <RegistryValue Id="RegKey_LoadBehavior" Root="HKCU"
+                                     Key="Software\Microsoft\Office\Project\AddIns\ProjectReviewTool"
+                                     Name="LoadBehavior" Value="3"
+                                     Type="integer" KeyPath="yes" />
+        </RegistryKey>             
+        
+        
+    </Component>
+</DirectoryRef>

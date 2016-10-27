@@ -1,0 +1,95 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="CheckboxExcelValue" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DefaultCalendar" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PRSD Federal Calendar</Value>
+    </Setting>
+    <Setting Name="PathFlagField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Flag5</Value>
+    </Setting>
+    <Setting Name="StatusDay" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="StatusWeeks" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="EnterpriseProjectFields" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Deliverable&lt;/string&gt;
+  &lt;string&gt;Primary IT Liaison&lt;/string&gt;
+  &lt;string&gt;Primary IT Planner&lt;/string&gt;
+  &lt;string&gt;Primary Office Director&lt;/string&gt;
+  &lt;string&gt;Primary Program Manager&lt;/string&gt;
+  &lt;string&gt;Primary Project Manager&lt;/string&gt;
+  &lt;string&gt;PTO_PfM&lt;/string&gt;
+  &lt;string&gt;PTO_PgM_Notes&lt;/string&gt;
+  &lt;string&gt;PTO_PjM_Notes&lt;/string&gt;
+  &lt;string&gt;PTO_Program1&lt;/string&gt;
+  &lt;string&gt;PTO_ProgramManager&lt;/string&gt;
+  &lt;string&gt;PTO_TechnicalLead&lt;/string&gt;
+  &lt;string&gt;Scope Statement&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="EnterpriseTaskFields" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;PTO_EVMActivityCode_v4&lt;/string&gt;
+  &lt;string&gt;PTO_KeyActivityFlag&lt;/string&gt;
+  &lt;string&gt;PTO_PPACode_v4&lt;/string&gt;
+  &lt;string&gt;PTO_ProgramCode&lt;/string&gt;
+  &lt;string&gt;PTO_SDLCPhase_v4&lt;/string&gt;
+  &lt;string /&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="CustomReports" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;PTO_Deployment&lt;/string&gt;
+  &lt;string&gt;PTO_IsThisSDLCPhase&lt;/string&gt;
+  &lt;string&gt;PTO_KeyActivityFlag&lt;/string&gt;
+  &lt;string&gt;PTO_OMB_EVM_CD&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="AutoSetStatusDate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ProjectSettings" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Default_AutoLinkTasks" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Default_AutoSplitTasks" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Default_NewTasksEstimated" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Default_ScheduleFromStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Default_AutoTrack" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Default_AutoAddResources" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Default_DefaultEffortDriven" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Default_HonorConstraints" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultTaskType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fixed Duration Not Effort Driven</Value>
+    </Setting>
+    <Setting Name="StatusTextField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Text5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
