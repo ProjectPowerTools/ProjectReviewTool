@@ -189,8 +189,6 @@
   -->
   <ItemGroup>
     <AppDesigner Include="My Project\" />
-    <Compile Include="ClassFastTag.vb" />
-    <Compile Include="ClassFastTagResult.vb" />
     <Compile Include="ClassPathFinder.vb" />
     <Compile Include="FormProgressToNow.Designer.vb">
       <DependentUpon>FormProgressToNow.vb</DependentUpon>
